@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/98a802f1-ba66-4ca7-a8db-987c5934608e/deploy-status)](https://app.netlify.com/sites/nuzlockedocs/deploys)
+
 # Website
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
