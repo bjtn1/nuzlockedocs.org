@@ -8,9 +8,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'Nuzlocke Docs',
+  tagline: 'Make nuzlocking easier to navigate',
+  // favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -20,8 +20,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'nuzlockedocs.org', // Usually your GitHub org/user name.
+  projectName: 'nuzlock', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -44,8 +44,8 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          // 'https://github.com/bjtn1/nuzlockedocs.org/issues',
         },
         // blog: {
         //   showReadingTime: true,
@@ -64,33 +64,24 @@ const config = {
   themeConfig:
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   ({
+    docs: {
+      sidebar: {
+        hideable: true
+      },
+    },
+    colorMode: {
+      defaultMode: "dark",
+      respectPrefersColorScheme: true,
+    },
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
-      logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
-      },
+      title: 'Nuzlocke Docs',
+      // logo: {
+      //   alt: 'My Site Logo',
+      //   src: 'img/logo.svg',
+      // },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
-        },
-        {
-          type: "docSidebar",
-          sidebarId: "vanillaGames",
-          position: "left",
-          label: "Vanilla Games"
-        },
-        {
-          type: "docSidebar",
-          sidebarId: "romHacks",
-          position: "left",
-          label: "ROM Hacks"
-        },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -101,47 +92,47 @@ const config = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
-        },
+        // {
+        //   title: 'Docs',
+        //   items: [
+        //     {
+        //       label: 'Tutorial',
+        //       to: '/docs/intro',
+        //     },
+        //   ],
+        // },
+        // {
+        //   title: 'Community',
+        //   items: [
+        //     {
+        //       label: 'Stack Overflow',
+        //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+        //     },
+        //     {
+        //       label: 'Discord',
+        //       href: 'https://discordapp.com/invite/docusaurus',
+        //     },
+        //     {
+        //       label: 'Twitter',
+        //       href: 'https://twitter.com/docusaurus',
+        //     },
+        //   ],
+        // },
+        // {
+        //   title: 'More',
+        //   items: [
+        //     {
+        //       label: 'Blog',
+        //       to: '/blog',
+        //     },
+        //     {
+        //       label: 'GitHub',
+        //       href: 'https://github.com/facebook/docusaurus',
+        //     },
+        //   ],
+        // },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Nuzlocke Docs. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
