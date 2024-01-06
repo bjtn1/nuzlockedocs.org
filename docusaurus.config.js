@@ -83,7 +83,7 @@ const config = {
       // },
       items: [
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/bjtn1/nuzlockedocs.org',
           label: 'GitHub',
           position: 'right',
         },
