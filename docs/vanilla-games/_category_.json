@@ -1,9 +1,9 @@
 {
   "label": "Vanilla Games",
-  "position": 3,
+  "position": 4,
   "link": {
     "type": "generated-index",
-    "description": "For baseline, unmodded, no hacks, Nintendo official games"
+    "description": "For official, baseline, unmodded, Nintendo Pokemon games"
   }
 }
 

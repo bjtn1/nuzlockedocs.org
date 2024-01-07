@@ -77,10 +77,6 @@ const config = {
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'Nuzlocke Docs',
-      // logo: {
-      //   alt: 'My Site Logo',
-      //   src: 'img/logo.svg',
-      // },
       items: [
         {
           href: 'https://github.com/bjtn1/nuzlockedocs.org',
